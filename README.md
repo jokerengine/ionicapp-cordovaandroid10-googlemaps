@@ -8,6 +8,18 @@ Clone this project from git and run the following commands:
 ```
 npm ci
 ```
+# For google maps to work, run the following commands
+
+```
+ionic cordova platform rm android
+ionic cordova platform add android@9.1.0
+```
+You can now plug in your android device to the computer and then run
+```
+ionic cordova run android --device
+```
+
+# To test the non-working version, run the following commands. 
 
 ```
 ionic cordova platform rm android
@@ -18,5 +30,6 @@ You can now plug in your android device to the computer and then run
 ```
 ionic cordova run android --device
 ```
+
 
 
